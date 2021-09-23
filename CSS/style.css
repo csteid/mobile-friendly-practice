@@ -24,3 +24,19 @@
 #bottom{
    text-align: right;
 }
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    body {
+      background-color: green;
+    }
+  }
